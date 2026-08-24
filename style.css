@@ -1347,20 +1347,17 @@ h6 {
    ========================================================= */
 
 .footer-banner {
+  display: block;
 
   width: 100%;
-
   height: auto;
 
-  max-height: 470px;
+  max-height: none;
 
-  object-fit: cover;
+  object-fit: contain;
+  object-position: center top;
 
-  object-position: center;
-
-  background:
-    var(--brand-dark-green);
-
+  background: var(--brand-dark-green);
 }
 
 
