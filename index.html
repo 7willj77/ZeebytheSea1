@@ -3,423 +3,198 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Zee by the Sea — original hand-finished coastal sea glass illustration art, crafted in Herne Bay." />
-  <meta name="theme-color" content="#72AEA8" />
+  <meta name="description" content="Zee by the Sea — original hand-finished coastal sea glass illustration art, crafted in Herne Bay. Discover the online shop." />
+  <meta name="theme-color" content="#8dc7c8" />
   <title>Zee by the Sea | Coastal Sea Glass Art</title>
-
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&family=Sacramento&display=swap" rel="stylesheet">
-
-  <link rel="preload" as="image" href="./assets/hero-beach.png">
-  <link rel="preload" as="image" href="./assets/hero-studio.png">
-
-  <link rel="stylesheet" href="./style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Montserrat:wght@400;500;600&family=Sacramento&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
+  <div class="page-backdrop" aria-hidden="true">
+    <div class="backdrop-panel backdrop-left"></div>
+    <div class="backdrop-panel backdrop-right"></div>
+    <div class="backdrop-wash"></div>
+  </div>
 
   <header class="site-header">
-
     <a class="brand" href="#top" aria-label="Zee by the Sea home">
       <span class="brand-script">Zee by the Sea</span>
       <span class="brand-subtitle">Coastal sea glass art · Herne Bay</span>
     </a>
 
     <nav class="desktop-nav" aria-label="Main navigation">
+      <a href="#shop">Shop</a>
       <a href="#story">Our Story</a>
       <a href="#sea-glass">Sea Glass</a>
       <a href="#contact">Contact</a>
     </nav>
-
   </header>
 
-
   <main id="top">
-
-    <!-- HERO -->
     <section class="hero" aria-labelledby="hero-title">
-
-      <div class="hero-images" aria-hidden="true">
-
-        <div class="hero-image-panel">
-          <img src="./assets/hero-beach.png" alt="" />
-        </div>
-
-        <div class="hero-image-panel">
-          <img src="./assets/hero-studio.png" alt="" />
-        </div>
-
-        <div class="hero-shade"></div>
-
-      </div>
-
-
       <div class="hero-card glass-card reveal">
-
-        <span class="eyebrow">
-          Original · Hand-Finished · Coastal
-        </span>
-
-        <h1 id="hero-title">
-          Zee by the Sea
-        </h1>
-
-        <p class="hero-lead">
-          Where shoreline stories become art.
-        </p>
-
+        <span class="eyebrow">Original · Hand-Finished · Coastal</span>
+        <h1 id="hero-title">Zee by the Sea</h1>
+        <p class="hero-lead">Where shoreline stories become art.</p>
 
         <div class="social-launcher" aria-label="Social and contact links">
-
-          <!-- FACEBOOK -->
-          <a
-            class="social-button facebook"
-            href="https://www.facebook.com/profile.php?id=61590581489234"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Visit Zee by the Sea on Facebook"
-          >
-
+          <a class="social-button facebook" href="https://www.facebook.com/profile.php?id=61590581489234" target="_blank" rel="noopener noreferrer" aria-label="Visit Zee by the Sea on Facebook">
             <span class="social-icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24">
-                <path d="M13.6 22v-9h3l.45-3.5H13.6V7.27c0-1.01.28-1.7 1.73-1.7H17.2V2.45c-.32-.04-1.43-.14-2.72-.14-2.7 0-4.55 1.65-4.55 4.68V9.5H6.88V13h3.05v9h3.67z"/>
-              </svg>
+              <svg viewBox="0 0 24 24"><path d="M13.6 22v-9h3l.45-3.5H13.6V7.27c0-1.01.28-1.7 1.73-1.7H17.2V2.45c-.32-.04-1.43-.14-2.72-.14-2.7 0-4.55 1.65-4.55 4.68V9.5H6.88V13h3.05v9h3.67z"/></svg>
             </span>
-
             <span>Facebook</span>
-
           </a>
 
-
-          <!-- INSTAGRAM -->
-          <a
-            class="social-button instagram"
-            href="https://www.instagram.com/zeeebythesea/"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Visit Zee by the Sea on Instagram"
-          >
-
+          <a class="social-button instagram" href="https://www.instagram.com/zeeebythesea/" target="_blank" rel="noopener noreferrer" aria-label="Visit Zee by the Sea on Instagram">
             <span class="social-icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24">
-                <path d="M7.8 2h8.4A5.8 5.8 0 0 1 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8A5.8 5.8 0 0 1 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2zm-.2 2A3.6 3.6 0 0 0 4 7.6v8.8A3.6 3.6 0 0 0 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6A3.6 3.6 0 0 0 16.4 4H7.6zm9.65 1.5a1.35 1.35 0 1 1 0 2.7 1.35 1.35 0 0 1 0-2.7zM12 6.85A5.15 5.15 0 1 1 12 17.15 5.15 5.15 0 0 1 12 6.85zm0 2A3.15 3.15 0 1 0 12 15.15 3.15 3.15 0 0 0 12 8.85z"/>
-              </svg>
+              <svg viewBox="0 0 24 24"><path d="M7.8 2h8.4A5.8 5.8 0 0 1 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8A5.8 5.8 0 0 1 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2zm-.2 2A3.6 3.6 0 0 0 4 7.6v8.8A3.6 3.6 0 0 0 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6A3.6 3.6 0 0 0 16.4 4H7.6zm9.65 1.5a1.35 1.35 0 1 1 0 2.7 1.35 1.35 0 0 1 0-2.7zM12 6.85A5.15 5.15 0 1 1 12 17.15 5.15 5.15 0 0 1 12 6.85zm0 2A3.15 3.15 0 1 0 12 15.15 3.15 3.15 0 0 0 12 8.85z"/></svg>
             </span>
-
             <span>Instagram</span>
-
           </a>
 
-
-          <!-- CONTACT -->
-          <a
-            class="social-button contact"
-            href="#contact"
-            aria-label="Jump to contact section"
-          >
-
+          <a class="social-button contact" href="#contact" aria-label="Jump to contact section">
             <span class="social-icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24">
-                <path d="M2 5.75A2.75 2.75 0 0 1 4.75 3h14.5A2.75 2.75 0 0 1 22 5.75v12.5A2.75 2.75 0 0 1 19.25 21H4.75A2.75 2.75 0 0 1 2 18.25V5.75zm2.3-.57L12 10.9l7.7-5.72a.75.75 0 0 0-.45-.15H4.75a.75.75 0 0 0-.45.15zm15.7 2.1-7.4 5.5a1 1 0 0 1-1.2 0L4 7.28v10.97c0 .41.34.75.75.75h14.5a.75.75 0 0 0 .75-.75V7.28z"/>
-              </svg>
+              <svg viewBox="0 0 24 24"><path d="M2 5.75A2.75 2.75 0 0 1 4.75 3h14.5A2.75 2.75 0 0 1 22 5.75v12.5A2.75 2.75 0 0 1 19.25 21H4.75A2.75 2.75 0 0 1 2 18.25V5.75zm2.3-.57L12 10.9l7.7-5.72a.75.75 0 0 0-.45-.15H4.75a.75.75 0 0 0-.45.15zm15.7 2.1-7.4 5.5a1 1 0 0 1-1.2 0L4 7.28v10.97c0 .41.34.75.75.75h14.5a.75.75 0 0 0 .75-.75V7.28z"/></svg>
             </span>
-
             <span>Contact</span>
-
           </a>
 
+          <a class="social-button shop" href="#shop" aria-label="Explore the online shop section">
+            <span class="social-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M6 8V6.5a6 6 0 0 1 12 0V8h2.1l1.1 13H2.8L3.9 8H6zm2 0h8V6.5a4 4 0 0 0-8 0V8zm-2.25 2-0.76 9h14.02l-.76-9h-1.9v2h-2v-2h-4.7v2h-2v-2h-1.9z"/></svg>
+            </span>
+            <span>Online Shop</span>
+          </a>
         </div>
-
       </div>
 
+      <div class="scroll-cue" aria-hidden="true">
+        <span></span>
+        <small>Discover</small>
+      </div>
     </section>
 
+    <section id="shop" class="shop-section content-shell" aria-labelledby="shop-title">
+      <div class="shop-card reveal">
+        <div class="shop-artwork" aria-hidden="true">
+          <span class="shop-glass-piece piece-one"></span>
+          <span class="shop-glass-piece piece-two"></span>
+          <span class="shop-glass-piece piece-three"></span>
+          <span class="shop-artwork-label">A LITTLE PIECE<br>OF THE COAST</span>
+        </div>
 
-    <!-- STORY -->
-    <section
-      id="story"
-      class="content-shell story-section"
-    >
+        <div class="shop-copy">
+          <span class="section-kicker">Original pieces · made by the coast</span>
+          <h2 id="shop-title">Bring the coast home.</h2>
+          <p>The Zee by the Sea online shop is set up on SumUp. It’s currently closed, but when it opens you’ll be able to browse available artwork and order securely online.</p>
 
-      <div class="story-grid">
-
-        <article class="story-copy glass-card reveal">
-
-          <span class="section-kicker">
-            Made by the shoreline
-          </span>
-
-          <h2>
-            Every piece starts with the sea.
-          </h2>
-
-          <p>
-            Every piece begins with a walk by the waves, a moment of stillness,
-            and a spark of inspiration. If something here speaks to you, it’s
-            yours to take home via collection from Herne Bay or posted.
-          </p>
-
-          <p>
-            Each piece of art leaves Herne Bay wrapped with care, a sprinkle of
-            sea-salt magic, and a wish for calm tides wherever it lands.
-          </p>
-
-
-          <div
-            class="quick-facts"
-            aria-label="Business information"
-          >
-
-            <span>
-              📍 Herne Bay
+          <div class="shop-actions">
+            <span class="shop-status">
+              <span class="shop-status-dot" aria-hidden="true"></span>
+              Store currently closed
             </span>
 
-            <span>
-              🐚 Original Coastal Seaglass Illustration Art
-            </span>
-
-            <span>
-              📲 Message For Purchase
-            </span>
-
-            <span>
-              🖌️ Commissions Welcome
-            </span>
-
+            <a class="shop-button" href="https://zee-by-the-sea.sumupstore.com/" target="_blank" rel="noopener noreferrer">
+              Visit the SumUp shop <span aria-hidden="true">↗</span>
+            </a>
           </div>
+        </div>
+      </div>
+    </section>
 
+    <section id="story" class="content-shell story-section">
+      <div class="story-grid">
+        <article class="story-copy glass-card reveal">
+          <span class="section-kicker">Made by the shoreline</span>
+          <h2>Every piece starts with the sea.</h2>
+          <p>Every piece begins with a walk by the waves, a moment of stillness, and a spark of inspiration. If something here speaks to you, it’s yours to take home via collection from Herne Bay or posted.</p>
+          <p>Each piece of art leaves Herne Bay wrapped with care, a sprinkle of sea-salt magic, and a wish for calm tides wherever it lands.</p>
+
+          <div class="quick-facts" aria-label="Business information">
+            <span>📍 Herne Bay</span>
+            <span>🐚 Original Coastal Seaglass Illustration Art</span>
+            <span>📲 Message For Purchase</span>
+            <span>🖌️ Commissions Welcome</span>
+          </div>
         </article>
 
-
-        <!-- POSTAGE -->
-        <aside
-          class="postage-card reveal"
-          aria-labelledby="postage-title"
-        >
-
-          <span
-            class="postage-stamp"
-            aria-hidden="true"
-          >
-            ✉
-          </span>
-
-          <span class="section-kicker">
-            From Herne Bay to your home
-          </span>
-
-          <h2 id="postage-title">
-            Postage
-          </h2>
-
-          <p>
-            Whether your parcel’s heading to a seaside cottage or a city far
-            from the waves, it’ll travel safely with Royal Mail.
-          </p>
-
+        <aside class="postage-card reveal" aria-labelledby="postage-title">
+          <span class="postage-stamp" aria-hidden="true">✉</span>
+          <p class="section-kicker">From Herne Bay to your home</p>
+          <h2 id="postage-title">Postage</h2>
+          <p>Whether your parcel’s heading to a seaside cottage or a city far from the waves, it’ll travel safely with Royal Mail.</p>
 
           <dl class="price-list">
-
             <div>
-              <dt>
-                2nd Class · Non-Tracked
-              </dt>
-
-              <dd>
-                £4.25
-              </dd>
+              <dt>2nd Class · Non-Tracked</dt>
+              <dd>£4.25</dd>
             </div>
-
-
             <div>
-              <dt>
-                1st Class · Non-Tracked
-              </dt>
-
-              <dd>
-                £5.45
-              </dd>
+              <dt>1st Class · Non-Tracked</dt>
+              <dd>£5.45</dd>
             </div>
-
-
             <div class="tracked">
-              <dt>
-                Add Tracked peace of mind
-              </dt>
-
-              <dd>
-                +25p
-              </dd>
+              <dt>Add Tracked peace of mind</dt>
+              <dd>+25p</dd>
             </div>
-
           </dl>
-
         </aside>
-
       </div>
-
     </section>
 
-
-    <!-- SEA GLASS -->
-    <section
-      id="sea-glass"
-      class="sea-glass-section content-shell"
-      aria-labelledby="sea-glass-title"
-    >
-
+    <section id="sea-glass" class="sea-glass-section content-shell" aria-labelledby="sea-glass-title">
       <div class="section-heading reveal">
-
-        <span class="section-kicker">
-          Found, weathered, transformed
-        </span>
-
-        <h2 id="sea-glass-title">
-          Sea Glass
-        </h2>
-
-        <p>
-          No two pieces take the same journey. Each one carries a little
-          history of the coast.
-        </p>
-
+        <span class="section-kicker">Found, weathered, transformed</span>
+        <h2 id="sea-glass-title">Sea Glass</h2>
+        <p>No two pieces take the same journey. Each one carries a little history of the coast.</p>
       </div>
-
 
       <div class="sea-glass-grid">
-
         <figure class="sea-panel reveal">
-
-          <img
-            src="./assets/seaglass-01.png"
-            alt="Sea glass pieces held in a hand on Herne Bay beach, explaining that some pieces are over 100 years old."
-          />
-
+          <img src="assets/seaglass-01.png" alt="Sea glass pieces held in a hand on Herne Bay beach, with text explaining that some pieces are over 100 years old." loading="lazy" />
         </figure>
 
-
         <figure class="sea-panel reveal">
-
-          <img
-            src="./assets/seaglass-02.png"
-            alt="A collection of sea glass beside the shore, explaining that no two pieces are ever the same."
-          />
-
+          <img src="assets/seaglass-02.png" alt="A collection of sea glass beside the shore, with text explaining that no two pieces are ever the same." loading="lazy" />
         </figure>
 
-
         <figure class="sea-panel reveal">
-
-          <img
-            src="./assets/seaglass-03.png"
-            alt="A piece of green sea glass on a pebble beach, explaining that finding sea glass takes patience."
-          />
-
+          <img src="assets/seaglass-03.png" alt="A piece of green sea glass on a pebble beach, with text explaining that finding sea glass takes patience." loading="lazy" />
         </figure>
-
       </div>
-
     </section>
 
-
-    <!-- CONTACT -->
-    <section
-      id="contact"
-      class="contact-section content-shell"
-      aria-labelledby="contact-title"
-    >
-
+    <section id="contact" class="contact-section content-shell" aria-labelledby="contact-title">
       <div class="contact-card reveal">
+        <span class="section-kicker">Found something you love?</span>
+        <h2 id="contact-title">Bring a little piece of the coast home.</h2>
+        <p>For purchases, questions or a custom commission, send a message and Zee by the Sea will get back to you.</p>
 
-        <span class="section-kicker">
-          Found something you love?
-        </span>
-
-        <h2 id="contact-title">
-          Bring a little piece of the coast home.
-        </h2>
-
-        <p>
-          For purchases, questions or a custom commission, send a message and
-          Zee by the Sea will get back to you.
-        </p>
-
-
-        <a
-          class="email-button"
-          href="mailto:zeeebythesea@gmail.com"
-        >
-
-          <span aria-hidden="true">
-            ✉
-          </span>
-
+        <a class="email-button" href="mailto:zeeebythesea@gmail.com">
+          <span aria-hidden="true">✉</span>
           zeeebythesea@gmail.com
-
         </a>
 
-
         <div class="contact-socials">
-
-          <a
-            href="https://www.instagram.com/zeeebythesea/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Instagram
-          </a>
-
-          <span aria-hidden="true">
-            ·
-          </span>
-
-          <a
-            href="https://www.facebook.com/profile.php?id=61590581489234"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Facebook
-          </a>
-
+          <a href="https://www.instagram.com/zeeebythesea/" target="_blank" rel="noopener noreferrer">Instagram</a>
+          <span aria-hidden="true">·</span>
+          <a href="https://www.facebook.com/profile.php?id=61590581489234" target="_blank" rel="noopener noreferrer">Facebook</a>
         </div>
-
       </div>
-
     </section>
-
   </main>
 
-
-  <!-- FOOTER -->
-  <footer
-    class="site-footer"
-    aria-label="Zee by the Sea footer"
-  >
-
-    <img
-      class="footer-banner"
-      src="./assets/footer-banner.png"
-      alt="Zee by the Sea — Original Hand-Finished Coastal Seaglass Illustration Art. Crafted in Herne Bay. Where shoreline stories become art."
-    />
-
+  <footer class="site-footer" aria-label="Zee by the Sea footer">
+    <div class="footer-image" role="img" aria-label="Zee by the Sea — Original Hand-Finished Coastal Seaglass Illustration Art. Crafted in Herne Bay. Where shoreline stories become art."></div>
 
     <div class="footer-bottom">
-
-      <span>
-        © <span id="year"></span> Zee by the Sea
-      </span>
-
-      <a href="mailto:zeeebythesea@gmail.com">
-        zeeebythesea@gmail.com
-      </a>
-
+      <span>© <span id="year"></span> Zee by the Sea</span>
+      <a href="mailto:zeeebythesea@gmail.com">zeeebythesea@gmail.com</a>
     </div>
-
   </footer>
 
-
-  <script src="./script.js"></script>
-
+  <script src="script.js"></script>
 </body>
 </html>
